@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CadClientes.Application\CadClientes.Application.csproj" />
+    <ProjectReference Include="..\CadClientes.Domain\CadClientes.Domain.csproj" />
+    <ProjectReference Include="..\CadClientes.Infrastructure\CadClientes.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

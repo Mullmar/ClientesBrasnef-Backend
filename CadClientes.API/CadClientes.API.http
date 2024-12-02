@@ -1,0 +1,6 @@
+@CadClientes.API_HostAddress = http://localhost:5063
+
+GET {{CadClientes.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
